@@ -1,0 +1,103 @@
+.heading2Xl {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #999;
+}
+.button {
+  font-weight: 600;
+  /* font-style: italic; */
+  text-transform: uppercase;
+  font-size: 10px;
+  /* line-height: 1.5em; */
+  /* transition: all 0.3s ease 0s; */
+  /* padding: 8px 20px; */
+  /* border-radius: 22px; */
+  cursor: pointer;
+  /* color: white; */
+  background-color: rgb(140, 130, 151);
+  right: 0;
+  height: 100%;
+  top: 0;
+  border: none;
+  display: none;
+  transition-duration: 1s;
+}
+.textAreaCopy {
+  transition: 0.8s;
+}
+.textAreaCopy textarea {
+  padding: 2%;
+}
+.textAreaCopy:hover .button {
+  display: block;
+  animation: fade_in_show 1s;
+}
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.form-control-file::-webkit-file-upload-button {
+  /* color: white;
+  display: inline-block;
+  background: #1cb6e0; */
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
