@@ -90,9 +90,6 @@
   }
 }
 .form-control-file::-webkit-file-upload-button {
-  /* color: white;
-  display: inline-block;
-  background: #1cb6e0; */
   border: none;
   padding: 7px 15px;
   font-weight: 700;

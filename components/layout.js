@@ -2,17 +2,14 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 const name = "SVG URL-ENCODER";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "SVG URL-ENCODER";
 
 export default function Layout({ children, home }) {
   return (
     <div className="container">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Convert your SVG code into CSS" />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
