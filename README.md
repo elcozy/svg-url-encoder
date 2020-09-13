@@ -1,2 +1,2 @@
-# nextjs-practice-blog
+# SVG URL ENCODER
  
